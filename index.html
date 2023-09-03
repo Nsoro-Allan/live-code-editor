@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="main-container">
+    <div class="title">
+        <h1>AC - Live Code Editor</h1>
+    </div>
+
+    <div class="editor">
+
+     <div class="content">
+        <textarea id="html-code" autocomplete="off" spellcheck="false" placeholder="Enter Your Html Code Here..."></textarea>
+        <textarea id="css-code" autocomplete="off" spellcheck="false" placeholder="Enter Your Css Code Here..."></textarea>
+        <textarea id="js-code" autocomplete="off" spellcheck="false" placeholder="Enter Your Js Code Here..."></textarea>
+     </div>
+
+     <div class="line"></div>
+
+     <div class="preview">
+        <h1>Here is your Preview or Output</h1>
+        <div class="line"></div>
+     </div>
+
+        <iframe id="output"></iframe>
+    </div>
+</div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
